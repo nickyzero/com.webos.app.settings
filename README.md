@@ -52,7 +52,7 @@ The following tools and libraries are required to build app:
 ```
 
 Noticing some intermittent errors depending on your node/npm version.
-We've seen it work with node 4.4.7 and npm 2.15.8 and node 6.5.0 and npm 3.10.3.
+We've seen it work with node 4.10.1 and npm 2.15.8 and node 6.5.0 and npm 3.10.3.
 
 ## Building
 
