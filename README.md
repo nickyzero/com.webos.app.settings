@@ -17,7 +17,8 @@ Settings App Menu
 	- Set Automatically
 	- Time
 	- Date
-	- TimeZone
+	- TimeZone test test
+
 
 - System Information
 	- Device Name
