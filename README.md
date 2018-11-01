@@ -46,7 +46,7 @@ This app was created using Enact framework.
 The following tools and libraries are required to build app:
 
 ```
-* Node 4.10
+* Node 4.11
 * NPM 3.5
 * enact-cli
 ```
