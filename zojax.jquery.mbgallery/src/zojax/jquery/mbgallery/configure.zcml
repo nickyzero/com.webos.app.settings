@@ -1,0 +1,37 @@
+<configure 
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   xmlns:i18n="http://namespaces.zope.org/i18n"
+   xmlns:zojax="http://namespaces.zope.org/zojax">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <zojax:resourcedirectory
+     name="jquery.mbgallery"
+     mapping=".css:zrt"
+     directory="resources" />
+     
+  <zojax:resourceinclude
+     name="jquery.mbgallery.css"
+     library="jquery-mbgallery" require="jquery-plugins"
+     type="stylesheet"
+     compression="yes"
+     path="jquery.mbgallery/css/black.css" />
+     
+     
+       
+  <zojax:resourceinclude
+     name="jquery.mbgallery.js"
+     library="jquery-mbgallery" require="jquery-plugins"
+     type="javascript" standalone="true"
+     compression="yes"
+     path="jquery.mbgallery/js/mbGallery.js" />
+     
+  <zojax:resourceinclude
+     name="initmbgallery.js"
+     library="jquery-mbgallery" require="jquery-plugins"
+     type="javascript" standalone="true"
+     compression="yes"
+     path="jquery.mbgallery/js/initmbgallery.js" />
+
+</configure>
