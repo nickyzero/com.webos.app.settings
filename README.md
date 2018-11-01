@@ -27,7 +27,7 @@ Settings App Menu
 ### Network
 - Device Name
 - Wired Connection
-	- Connection
+	- Connection !!!!
 	- TCP / IP properties
 	- EDIT
 
